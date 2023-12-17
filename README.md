@@ -1,8 +1,6 @@
 # Julia-Sets
 Plotting julia sets for different values of complex constant
 
-# Julia Set Generator
-
 ## Overview
 This Python script generates and visualizes Julia sets, which are fascinating fractal patterns in complex dynamics. The Julia set is constructed by iterating a complex function on a grid of complex numbers. The code utilizes NumPy for numerical operations and Matplotlib for plotting.
 
