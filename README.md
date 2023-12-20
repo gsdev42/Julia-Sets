@@ -36,6 +36,9 @@ width, height = 800, 800
 xmin, xmax = -2, 2
 ymin, ymax = -2, 2
 c = complex(-0.8, 0.156)  # Experiment with different values of 'c'
+#you can try
+#c = complex(0, 0.8)
+#c = complex(0.35, 0.35)
 max_iter = 100
 
 julia_set = generate_julia_set(width, height, xmin, xmax, ymin, ymax, c, max_iter)
