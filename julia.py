@@ -28,6 +28,6 @@ ymin, ymax = -2, 2
 c = complex(-0.8, 0.156)  # You can experiment with different values of 'c'
 max_iter = 100
 
-# Generate and plot the Julia set
+# Generate and plot Julia set
 julia_set = generate_julia_set(width, height, xmin, xmax, ymin, ymax, c, max_iter)
 plot_julia_set(julia_set)
